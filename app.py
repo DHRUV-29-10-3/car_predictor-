@@ -1,7 +1,6 @@
 import streamlit as st
 import pickle
 import pandas as pd
-import sklearn
 
 
 cars = pickle.load(open("Car_Price_Prediction_lr.pkl","rb"))
